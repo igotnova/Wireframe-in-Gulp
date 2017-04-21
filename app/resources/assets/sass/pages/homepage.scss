@@ -1,0 +1,65 @@
+.section{
+	font-family: $website-font;
+	display:flex;
+	justify-content: center;
+	margin-top:40px;
+
+	.sidebar{
+		width:30%;
+		margin:0 40px;
+		background-color: $body-color;
+
+		.logo{
+			&-image{
+				width:100%;
+			}
+		}
+		.navigation{
+			background-color: $navigation;
+			margin-top:-4px;
+			padding: 10px 0;
+			font-size:20px;
+			&-list{
+				margin:0;
+				list-style-type: none;
+				padding:10px 0;
+			}
+			&-list-links{
+				text-align:center;
+				margin:20px;
+				height:30px;
+			}
+			a{
+				text-decoration: none;
+				color: $links;
+			}
+		}
+		.social-media{
+			display: flex;
+			background-color: $primary-color;
+			justify-content: center;
+			padding:20px;
+			height:75px;
+			&-links{
+				list-style-type: none;
+				margin:10px;
+			}
+			&-icons{
+				height:50px;
+			}
+		}
+	}
+
+	.main{
+		width:55%;
+		background-color: $primary-color;
+		padding:5px 50px;
+
+		.experience{
+			.skill-bars{
+
+			}
+		}
+	}
+}
+
