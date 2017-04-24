@@ -456,3 +456,11 @@ h4 {
       height: 70px; }
     .section .main .experience-item p {
       font-size: 14px; }
+    .section .main .grid {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .section .main .grid-photos {
+        width: 33%; }
+      .section .main .grid-photo {
+        height: 365px; }
