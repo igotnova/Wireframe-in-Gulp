@@ -52,7 +52,7 @@
 	.main{
 		width:55%;
 		background-color: $primary-color;
-		padding:5px 50px;
+		padding:5px 50px 150px 50px;
 
 		.experience{
 			.skill-bar{
@@ -78,8 +78,9 @@
 				width:49%;
 				height: 70px;
 			}
-			&-item p{
-				font-size:14px;
+			&-item span{
+				font-style:italic;
+				font-size:20px;
 			}
 		}
 		.grid{
@@ -91,6 +92,31 @@
 			}
 			&-photo{
 				height:365px;
+			}
+		}
+		.contact{
+			.input{
+				width:100%;
+				font-size:50px;
+				height:75px;
+				margin: 20px 0;
+				border: hidden;
+			}
+			.input-text{
+				width:100%;
+				font-size:50px;
+				height:225px;
+				margin: 20px 0;
+				border:none;
+				resize: none;
+			}
+			.button{
+				float:right;
+				height:75px;
+				width:300px;
+				cursor:pointer;
+				background-color: $dark-grey;
+				font-size:40px;
 			}
 		}
 	}
