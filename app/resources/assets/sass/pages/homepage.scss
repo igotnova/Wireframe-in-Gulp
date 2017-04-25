@@ -3,7 +3,6 @@
 	display:flex;
 	justify-content: center;
 	margin-top:40px;
-
 	.sidebar{
 		width:30%;
 		margin:0 40px;
@@ -48,7 +47,6 @@
 			}
 		}
 	}
-
 	.main{
 		width:55%;
 		background-color: $primary-color;
@@ -91,7 +89,7 @@
 				width:33%;
 			}
 			&-photo{
-				height:365px;
+				height:250px;
 			}
 		}
 		.contact{
@@ -113,6 +111,7 @@
 			.button{
 				float:right;
 				height:75px;
+				border:none;
 				width:300px;
 				cursor:pointer;
 				background-color: $dark-grey;

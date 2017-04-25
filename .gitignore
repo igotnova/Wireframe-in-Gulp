@@ -1,3 +1,5 @@
 node_modules/
 gulp-project.iml
 .idea/
+/app/resources/assets/css/styles.css
+/app/resources/assets/css/styles.min.css
